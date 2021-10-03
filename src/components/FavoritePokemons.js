@@ -28,7 +28,7 @@ class FavoritePokemons extends React.Component {
   renderFavoritePokemons() {
     const { pokemons } = this.props;
     const { renderFavoritePokemon } = FavoritePokemons;
-
+    console.log();
     return (
       <div className="favorite-pokemons">
         {pokemons.map((pokemon) => renderFavoritePokemon(pokemon))}
